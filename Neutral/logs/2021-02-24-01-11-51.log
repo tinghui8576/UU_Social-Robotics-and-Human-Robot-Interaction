@@ -1,0 +1,21 @@
+01:11:51 [Skill] INFO  Skill:139 - Connecting to Furhat server on 0.0.0.0:1932
+01:11:51 [ErrorLoggingThread] ERROR Skill:459 - Exception in thread "Skill" java.lang.NoClassDefFoundError: furhatos/app/socialrobot/SocialrobotSkill (wrong name: furhatos/app/socialrobot/SocialRobotSkill)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at furhatos.skills.Skill.startSkill(Skill.java:204)
+	at furhatos.skills.Skill.main(Skill.java:94)
+	at furhatos.app.socialrobot.MainKt.main(main.kt:15)
+
+01:12:06 [EventSystem] INFO  Skill:184 - Terminating skill
