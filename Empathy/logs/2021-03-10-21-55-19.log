@@ -1,0 +1,4 @@
+21:55:19 [Skill] INFO  Skill:139 - Connecting to Furhat server on 192.168.43.88:1932
+21:55:19 [ProjectSkill] INFO  ProjectSkill:166 - Starting skill
+21:55:43 [ProjectSkill] WARN  Furhat:400 - No behavior found for Mark 0 in speech utterance
+21:56:28 [EventSystem] INFO  ProjectSkill:184 - Terminating skill
